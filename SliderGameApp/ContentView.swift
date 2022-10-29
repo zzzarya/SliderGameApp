@@ -20,7 +20,7 @@ struct ContentView: View {
 
             HStack {
                 Text("0")
-                SliderUIKit(alpha: computeScore(), currentValue: $currentValue)
+                SliderUIKit(currentValue: $currentValue, alpha: computeScore())
                 Text("100")
             }
             .padding(.bottom, 20)

@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct SliderUIKit: UIViewRepresentable {
-    let alpha: Int
     @Binding var currentValue: Float
+    let alpha: Int
     
     func makeUIView(context: Context) -> UISlider {
         let slider = UISlider()
         slider.minimumValue = 0
         slider.maximumValue = 100
-        slider.value = currentValue
         
         slider.addTarget(
             context.coordinator,
@@ -51,6 +50,6 @@ extension SliderUIKit {
 
 struct Slider_Previews: PreviewProvider {
     static var previews: some View {
-        SliderUIKit(alpha: 100, currentValue: .constant(65))
+        SliderUIKit(currentValue: .constant(65), alpha: 100)
     }
 }
