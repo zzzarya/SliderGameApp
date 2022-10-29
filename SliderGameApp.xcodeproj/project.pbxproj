@@ -11,6 +11,7 @@
 		600E1B20290C1BDB004D22A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600E1B1F290C1BDB004D22A9 /* ContentView.swift */; };
 		600E1B22290C1BDC004D22A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600E1B21290C1BDC004D22A9 /* Assets.xcassets */; };
 		600E1B25290C1BDC004D22A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600E1B24290C1BDC004D22A9 /* Preview Assets.xcassets */; };
+		600E1B2C290C2081004D22A9 /* SliderUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600E1B2B290C2081004D22A9 /* SliderUIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		600E1B1F290C1BDB004D22A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		600E1B21290C1BDC004D22A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600E1B24290C1BDC004D22A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		600E1B2B290C2081004D22A9 /* SliderUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				600E1B1D290C1BDB004D22A9 /* SliderGameAppApp.swift */,
 				600E1B1F290C1BDB004D22A9 /* ContentView.swift */,
+				600E1B2B290C2081004D22A9 /* SliderUIKit.swift */,
 				600E1B21290C1BDC004D22A9 /* Assets.xcassets */,
 				600E1B23290C1BDC004D22A9 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				600E1B20290C1BDB004D22A9 /* ContentView.swift in Sources */,
+				600E1B2C290C2081004D22A9 /* SliderUIKit.swift in Sources */,
 				600E1B1E290C1BDB004D22A9 /* SliderGameAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
